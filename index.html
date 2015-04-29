@@ -14,11 +14,11 @@
         
 
 
-  <!--grupo JavaScript-->
+  
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/jquery.mobile-1.4.5.min.js"></script>
   <script src="js/acciones.js" type="text/javascript"></script>
-  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+  <script src="phonegap.js" type="text/javascript"></script>
  </head>
 
  <body>
@@ -31,18 +31,41 @@
 
   <div data-role="main" class="ui-content" align="center">
       <div data-role="controlgroup" align="center" style="width:50%" data-type="vertical">
-       <div id="btnvibrar" class="ui-btn ui-btn-corner-all "> Vibrar
-        <div id="btnbeep" class="ui-btn ui-btn-corner-all "> Beep
-    
-  		</div>
-       </div>
-      </div>
 
+          <a href="#" id="btnvibrar" class="ui-btn ui-icon-check ui-btn-icon-right ui-btn-corner-all ui-shadow  data-transition="flip">Víbrar</a> 
+   <a href="#" id="btnbeep" class="ui-btn ui-icon-check ui-btn-icon-right ui-btn-corner-all  ui-shadow  data-transition="flip"> Beep</a> 
+      <a href="#barrer" id="btnbarrer" class="ui-btn ui-icon-check ui-btn-icon-right ui-btn-corner-all ui-shadow  data-transition="flip">Barrer</a> 
+        <a href="#" id="btneventos" class="ui-btn ui-icon-check ui-btn-icon-right ui-btn-corner-all ui-shadow  data-transition="flip">Eventos</a> 
+    </div>
+   </div> 
+      
+  </div>
   <div data-role="footer">
     <h1>@Laura Stefany Ocelotl Ponce </h1>
   </div>
  </div>  
  <!-- Principal -->
+<div data-role="page" id=barrer" >   
+  <div data-role="header">
+    <h1>Barrer</h1>
+  </div>
 
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <div id= "izquierda" style="background-color:#555" >
+    <p> Izquierda </p>
+    </div>
+    <div id="DERECHA" style="background-color:#555"> 
+    <p> Derecha </p>
+    </div>
+    </div>
+    </div>
+    
+
+  
+  <div data-role="footer">
+    <h1>@Laura Stefany Oceelotl Ponce</h1>
+  </div>
+ </div>  
  </body>
 </html> 
